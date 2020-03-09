@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="fvcon.png" sizes="16x16">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <title>Model S | Tesla</title>
+    <script>
+      /* When the user clicks on the button,
+      toggle between hiding and showing the dropdown content */
+      function myFunction()
+      {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        function myFunction(x)
+        {
+          x.classList.toggle("change");
+        }
+        function teslaWeb()
+        {
+          location.replace("https://www.tesla.com");
+        }
+  </script>
+  </head>
+  <body>
+    <div class="drpdown" onclick="myFunction">
+      <div class="container" onclick="myFunction(this);myFunction();">
+        <div class="bar1" onclick="myFunction()"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    <div id="myDropdown" class="dropdown-content">
+      <br>
+      <br>
+      <a href="https://www.tesla.com/inventory/new/ms">EXISTING INVENTORY</a>
+      <hr>
+      <a href="https://www.tesla.com/inventory/used/ms">USED INVENTORY</a>
+      <hr>
+      <a href="https://www.tesla.com/drive">TEST DRIVE</a>
+      <hr>
+      <a href="https://www.tesla.com/findus?bounds=50.034535973301956%2C-67.69189571875%2C28.263710960523248%2C-130.84130978125&zoom=5&filters=store%2Cservice%2Csupercharger%2Cdestination%20charger">FIND US</a>
+      <hr>
+      <a href="https://www.tesla.com/support">SUPPORT</a>
+      <hr>
+      <a href="https://www.tesla.com/updates">GET NEWSLETTER</a>
+      <hr>
+      <a href="https://www.tesla.com/blog">NEWS</a>
+      <hr>
+      <a href="https://www.tesla.com/energy">ENERGY</a>
+      <hr>
+      <a href="https://www.tesla.com/cybertruck">CYBERTRUCK</a>
+      <hr>
+      <a href="https://www.tesla.com/roadster">ROADSTER</a>
+      <hr>
+      <a href="https://www.tesla.com/semi">SEMI</a>
+      <hr>
+      <a href="https://www.tesla.com/charging">CHARGING</a>
+      <hr>
+      <a href="https://www.tesla.com/charging">UNITED STATES</a>
+    </div>
+    <br>
+    </div>
+    <br>
+    </a>
+    <div class="firstPic">
+      <a href="https://www.tesla.com">
+      <img id="teslaText" src="teslaText.png" alt="Tesla">
+      </a>
+      <a href="https://www.tesla.com/models" class="ms">MODEL S&nbsp&nbsp</a>
+      </a>
+      <a href="https://www.tesla.com/model3" class="m3">MODEL 3&nbsp&nbsp </a>
+      </a>
+      <a href="https://www.tesla.com/modelx" class="mx">MODEL X&nbsp&nbsp</a>
+      </a>
+      <a href="https://www.tesla.com/modely" class="my">MODEL Y&nbsp&nbsp</a>
+      </a>
+      <a href="https://www.tesla.com/solarroof" class="sr">SOLAR ROOF&nbsp&nbsp</a>
+      </a>
+      <a href="https://www.tesla.com/solarpanels" class="sp">SOLAR PANELS</a>
+      </div>
+      <a href="https://shop.tesla.com/?tesref=true?tesref=true" class="shop">SHOP</a>
+      </a>
+      <a href="https://auth.tesla.com/login?lang=en" class="si">SIGN IN
+      </a>
+        <div class="text1">Tesla</div>
+        <br>
+        <div class="text2">Dragster
+        <a href="https://www.tesla.com/models/design">
+          <input id="orderNow" type="button" onclick="runAll()" value="ORDER NOW">
+        </a>
+      </div>
+      <br>
+  </body>
+</html>
